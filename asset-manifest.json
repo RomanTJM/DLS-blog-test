@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DLS-blog-test/static/css/main.5ef1ce63.css",
+    "main.css": "/DLS-blog-test/static/css/main.944a3429.css",
     "main.js": "/DLS-blog-test/static/js/main.45437c48.js",
     "static/media/Close.svg": "/DLS-blog-test/static/media/Close.a18ba8b482296074ef10264e0d3619f9.svg",
     "static/media/Search.svg": "/DLS-blog-test/static/media/Search.e09e29837485fbad43d4226dd8bef6ad.svg",
@@ -8,11 +8,11 @@
     "static/media/Menu.svg": "/DLS-blog-test/static/media/Menu.5d44693be728b29eafde.svg",
     "static/media/Arrow-right.svg": "/DLS-blog-test/static/media/Arrow-right.4203022e3c69bcf64f0c.svg",
     "static/media/Arrow.svg": "/DLS-blog-test/static/media/Arrow.9bbffe505c0f0512cb2b.svg",
-    "main.5ef1ce63.css.map": "/DLS-blog-test/static/css/main.5ef1ce63.css.map",
+    "main.944a3429.css.map": "/DLS-blog-test/static/css/main.944a3429.css.map",
     "main.45437c48.js.map": "/DLS-blog-test/static/js/main.45437c48.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef1ce63.css",
+    "static/css/main.944a3429.css",
     "static/js/main.45437c48.js"
   ]
 }
