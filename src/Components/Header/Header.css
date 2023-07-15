@@ -1,0 +1,139 @@
+.header {
+    display: flex; 
+    border-bottom: 1px solid #E9E9E9;
+    height: 81px; 
+    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-logo-conteiner {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+    margin: 0 auto;
+/* 
+    border-bottom: 1px solid #E9E9E9;
+    height: 81px; */
+}
+
+.header-logo {
+    width: 181px;
+    height: 27px;
+}
+
+
+.mian-search {
+    position: absolute;
+    top: 22px;
+    right: 190px;
+  }
+  
+  .mian-search img {
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+  }
+  
+  .input {
+    /* padding: 10px; */
+    width: 60px;
+    height: 40px;
+    background: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    outline: none;
+    transition: 0.5s;
+    border: none;
+  }
+  
+  .mian-search:hover input {
+    width: 200px;
+    background: white;
+    border-radius: 2px;
+    border: 1px solid #e9e9e9;
+  }
+
+  .mian-search img {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 15px; */
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    transition: 0.2s;
+  }
+  
+  .mian-search:hover img {
+    opacity: 0;
+    z-index: -1;
+  }
+
+
+
+@media (max-width: 768px) {
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 94px;
+        margin: 0 20px;
+    }
+
+    .header-logo-conteiner,
+    .header_menu {
+        border: none;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+
+
+    .mian-search {
+        right: 0px;
+      }
+    
+      .input {
+        position: relative;
+        right: 20px;
+      }
+
+}
+
+@media (max-width: 1180px) {
+
+    .header {
+        justify-content: space-between;
+        margin: 0 320px 0 70px;
+    }
+
+    .header-logo-conteiner,
+    .header_menu {
+        border: none;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+
+
+    
+    .mian-search {
+        right: 45px;
+      }
+    
+      .input {
+        position: relative;
+        right: 20px;
+      }
+
+}

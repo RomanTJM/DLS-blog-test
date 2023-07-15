@@ -1,0 +1,123 @@
+.header_menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #E9E9E9;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    background: #FFFFFF;
+    transition: 0.5s ease;
+}
+
+.hide {
+    transition: 0.5s ease;
+    top: -200px;
+}
+
+
+.header_menu-nav a {
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.header_menu-nav li {
+    position: relative;
+    list-style: none;
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.header_menu-list {
+    display: flex;
+}
+
+.header_menu-list>li:hover .header_menu-sub-list {
+    display: block;
+}
+
+.header_menu-link,
+.header_menu-link-buy {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+
+.header_menu-link::after {
+    content: url('../../Icon/Arrow.svg');
+    width: 10px;
+    height: 6px;
+    padding-left: 4px;
+}
+
+.header_menu-sub-list {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 57px;
+    padding: 20px;
+    width: 176px;
+    height: 173px;
+    border: 1px solid #E9E9E9;
+    background: #FFFFFF;
+}
+
+.header_menu-sub-list li {
+    height: 29px;
+    border-bottom: 1px solid #E9E9E9;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_menu-sub-list a {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_menu-sub-list a:hover {
+    color: #969696;
+    position: absolute;
+    left: 8px;
+}
+
+.header_menu-sub-list a::after {
+    content: url('../../Icon/Arrow-right.svg');
+    width: 6px;
+    height: 4px;
+    position: absolute;
+    left: 170px;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+
+    .header_menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1180px) {
+
+    .header_menu {
+        display: none;
+    }
+
+}
