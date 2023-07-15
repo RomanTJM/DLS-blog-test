@@ -10,33 +10,33 @@ function App() {
   const [filtredBlogs, setFiltredBlogs] = useState([])
 
   useEffect(() => {
-      const initBlog = async () => {
-          const blog = await LoadBlog();
+    const initBlog = async () => {
+      const blog = await LoadBlog();
 
-          setBlogs(blog);
-          if (filtredBlogs.length === 0) {
-              setFiltredBlogs(blog);
-          }
-      };
+      setBlogs(blog);
+      if (filtredBlogs.length === 0) {
+        setFiltredBlogs(blog);
+      }
+    };
 
-      initBlog();
+    initBlog();
   }, [])
 
   const onSearchHandler = (substr) => {
-      const newBlog = blogs.filter(
-          (blog) => blog.text.includes(substr) || blog.title.includes(substr)
-      );
-      setFiltredBlogs(newBlog);
+    const newBlog = blogs.filter(
+      (blog) => blog.text.includes(substr) || blog.title.includes(substr)
+    );
+    setFiltredBlogs(newBlog);
   };
 
   return (
     <div className="App">
-        <Header
-          onSearchHandler={onSearchHandler}
-        />
-        <Main 
-          filtredBlogs={filtredBlogs}
-        />
+      <Header
+        onSearchHandler={onSearchHandler}
+      />
+      <Main
+        filtredBlogs={filtredBlogs}
+      />
     </div>
   );
 }

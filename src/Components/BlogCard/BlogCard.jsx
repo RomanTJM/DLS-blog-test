@@ -31,9 +31,9 @@ export const BlogCard = ({ img, title, tags, autor, date, views, text, img_2x })
                 null
             )
             }
-            <img 
-                 onClick={() => setOpenModal(!isOpenModal)}
-                src={img} srcSet={`${img} 1x, ${img_2x} 2x`} 
+            <img
+                onClick={() => setOpenModal(!isOpenModal)}
+                src={img} srcSet={`${img} 1x, ${img_2x} 2x`}
             />
             <h2>{tags}</h2>
             <h1>{title}</h1>

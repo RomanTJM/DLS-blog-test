@@ -19,7 +19,6 @@
     top: -200px;
 }
 
-
 .header_menu-nav a {
     text-decoration: none;
     margin-right: 32px;
@@ -119,5 +118,4 @@
     .header_menu {
         display: none;
     }
-
 }

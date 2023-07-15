@@ -86,13 +86,13 @@
 
 @media (max-width: 768px) {
 
-    .header-logo-conteiner,
     .header_menu {
         border: none;
     }
 
     .header_menu-mobie {
         display: block;
+        padding-left: 20px;
     }
 
     .header_menu {
@@ -111,7 +111,7 @@
         height: 100%;
         background-color: rgba(255, 255, 255, 0.8);
         top: 0;
-        left: 0;
+        left: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -183,6 +183,10 @@
         height: 224px;
         padding: 0 20px 20px 20px;
         top: 48px;
+    }
+
+    .col-25 {
+        width: 25%;
     }
 }
 
@@ -195,6 +199,7 @@
 
     .header_menu-mobie {
         display: block;
+        padding-left: 20px;
     }
 
     .header_menu {
@@ -285,6 +290,10 @@
         height: 224px;
         padding: 0 20px 20px 20px;
         top: 48px;
+    }
+
+    .col-25 {
+        width: 25%;
     }
 
 }

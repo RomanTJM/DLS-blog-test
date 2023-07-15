@@ -12,7 +12,7 @@ export const HeaderMenuMobie = () => {
     }
 
     return (
-        <div className="header_menu-mobie" onClick={() => setMenuOpen(!isMenuOpen)}>
+        <div className="header_menu-mobie col-3 col-25" onClick={() => setMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? (
                 <>
                     <div className='menu-mobie'>
@@ -129,7 +129,6 @@ export const HeaderMenuMobie = () => {
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </>
             ) : (
